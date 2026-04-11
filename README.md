@@ -81,5 +81,5 @@ This project is personal and not licensed for redistribution. All content, exper
 - **Architecture:** Medallion Architecture, ETL/ELT, Data Warehousing
 
 📧 nilaysingh.work01@gmail.com  
-🔗 [linkedin.com/in/nilay-singh](https://linkedin.com/in/nilay-singh)  
+🔗 [linkedin.com/in/nilay-singh](https://www.linkedin.com/in/nilay-singh-96ab49198/)  
 📍 India · Open to remote & on-site roles
