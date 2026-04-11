@@ -48,45 +48,6 @@ No build tools, no dependencies, no npm — just open the file and it works.
 
 ---
 
-## 🚀 Deployment
-
-### Option 1 — Netlify (Recommended, ~2 minutes)
-
-1. Go to [netlify.com](https://netlify.com) and sign up for free
-2. Drag and drop the `portfolio/` folder onto the Netlify dashboard
-3. Your site is live at `https://your-name.netlify.app`
-4. Optionally customize the subdomain under **Site Settings → Domain**
-
-### Option 2 — GitHub Pages
-
-1. Create a new GitHub repository named `your-username.github.io`
-2. Rename `index.html` if not already done, then upload both files
-3. Go to **Settings → Pages → Deploy from branch → main**
-4. Live at `https://your-username.github.io`
-
-### Option 3 — Vercel
-
-1. Push the folder to a GitHub repo
-2. Import the repo at [vercel.com](https://vercel.com)
-3. Vercel auto-deploys on every push
-
-> **Important:** Keep `index.html` and `Nilay_Singh_Resume.docx` in the **same directory** so the resume download button works correctly.
-
----
-
-## 🎨 Customization
-
-### Update Personal Info
-
-Open `index.html` and search for the following to update:
-
-| What to change | Search for |
-|----------------|------------|
-| Email address | `nilaysingh.work@gmail.com` |
-| LinkedIn URL | `linkedin.com/in/nilay-singh` |
-| Resume file | `Nilay_Singh_Resume.docx` |
-| Hero badge text | `Available for Opportunities` |
-
 ### Update Colors
 
 All colors are defined as CSS variables at the top of the `<style>` block:
@@ -102,21 +63,6 @@ All colors are defined as CSS variables at the top of the `<style>` block:
   --muted: #94a3b8;      /* Muted text */
 }
 ```
-
-### Add a New Section
-
-1. Add a nav link: `<li><a href="#new-section">New</a></li>`
-2. Add a divider: `<hr class="divider">`
-3. Add the section:
-```html
-<section id="new-section">
-  <div class="section-label">Label</div>
-  <div class="section-title">Section Title</div>
-  <p class="section-subtitle">Short description here.</p>
-  <!-- your content -->
-</section>
-```
-
 ---
 
 ## 📄 License
@@ -127,13 +73,13 @@ This project is personal and not licensed for redistribution. All content, exper
 
 ## 🙋 About
 
-**Nilay Singh** is a Data Engineer at Celebal Technologies with expertise in:
+**Nilay Singh** is a Data Engineer with expertise in:
 
 - **Cloud:** Microsoft Azure, Microsoft Fabric
 - **Big Data:** Apache Spark, Databricks, Delta Lake
 - **Languages:** Python, SQL, PySpark
 - **Architecture:** Medallion Architecture, ETL/ELT, Data Warehousing
 
-📧 nilaysingh.work@gmail.com  
+📧 nilaysingh.work01@gmail.com  
 🔗 [linkedin.com/in/nilay-singh](https://linkedin.com/in/nilay-singh)  
 📍 India · Open to remote & on-site roles
